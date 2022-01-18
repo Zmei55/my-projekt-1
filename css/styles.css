@@ -21,14 +21,15 @@ ul { /* убирает все точки/нумерацию из списков.
 
 /* стилизация шапки */
 .logo {
-    color: #000;
+    color: inherit;
 }
 
 .logo-blue {
     color: var(--accent-color);
 }
 
-.header a {
+.header a,
+.footer a {
     text-decoration: none;
 }
 
@@ -45,7 +46,8 @@ ul { /* убирает все точки/нумерацию из списков.
     color: var(--accent-color);
 }
 
-.communication .item {
+.communication .item,
+.footer .item {
     color: var(--second-text-color);
 }
 
@@ -54,6 +56,7 @@ ul { /* убирает все точки/нумерацию из списков.
     color: var(--accent-color);
 }
 
+/* стилизация main */
 .hero .button {
     color: #fff;
     background-color: var(--accent-color);
@@ -70,6 +73,13 @@ ul { /* убирает все точки/нумерацию из списков.
 
 .team-list .profession {
     color: var(--second-text-color);
+}
+
+/* стилизация подвала */
+
+.footer {
+    color: #fff;
+    background-color: #2F303A;
 }
 
 /* CSS для portfolio.html */
