@@ -16,6 +16,7 @@ ul { /* убирает все точки/нумерацию из списков.
 :root {
     --second-text-color: #757575;
     --accent-color: #2196F3;
+    --background-filter-portfolio: #F5F4FA;
 }
 
 /* стилизация шапки */
@@ -53,7 +54,7 @@ ul { /* убирает все точки/нумерацию из списков.
     color: var(--accent-color);
 }
 
-.button {
+.hero .button {
     color: #fff;
     background-color: var(--accent-color);
     font-weight: bold;
