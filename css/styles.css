@@ -13,13 +13,21 @@ ul { /* убирает все точки/нумерацию из списков.
     list-style: none;
 }
 
+:root {
+    --accent-color: #2196F3;
+}
+
 /* стилизация шапки */
 .logo {
     color: #000;
 }
 
 .logo-blue {
-    color: #2196F3;
+    color: var(--accent-color);
+}
+
+.header a {
+    text-decoration: none;
 }
 
 .site-nav .link{
@@ -28,15 +36,15 @@ ul { /* убирает все точки/нумерацию из списков.
 
 .site-nav .link:hover,
 .site-nav .link:focus {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 .communication .item {
     color: #757575;
-    text-decoration: none;
 }
 
 .communication .item:hover,
 .communication .item:focus {
-    color: #2196F3;
+    color: var(--accent-color);
 }
+
