@@ -49,3 +49,13 @@ ul { /* убирает все точки/нумерацию из списков.
     color: var(--accent-color);
 }
 
+
+
+.section .text {
+    color: var(--second-text-color);
+}
+
+
+.team-list .profession {
+    color: var(--second-text-color);
+}
