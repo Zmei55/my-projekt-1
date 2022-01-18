@@ -40,6 +40,10 @@ ul { /* убирает все точки/нумерацию из списков.
     color: var(--accent-color);
 }
 
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+
 .communication .item {
     color: var(--second-text-color);
 }
@@ -66,3 +70,5 @@ ul { /* убирает все точки/нумерацию из списков.
 .team-list .profession {
     color: var(--second-text-color);
 }
+
+/* CSS для portfolio.html */
