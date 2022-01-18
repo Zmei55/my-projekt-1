@@ -9,3 +9,34 @@ body {
     background-color: #fff;
     color: #212121;
 }
+ul { /* убирает все точки/нумерацию из списков. Можно для отдельных списков через добавление отдельного класса.*/
+    list-style: none;
+}
+
+/* стилизация шапки */
+.logo {
+    color: #000;
+}
+
+.logo-blue {
+    color: #2196F3;
+}
+
+.site-nav .link{
+    color: #212121;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: #2196F3;
+}
+
+.communication .item {
+    color: #757575;
+    text-decoration: none;
+}
+
+.communication .item:hover,
+.communication .item:focus {
+    color: #2196F3;
+}
