@@ -73,3 +73,19 @@ ul { /* убирает все точки/нумерацию из списков.
 }
 
 /* CSS для portfolio.html */
+
+/* кнопки фильтра */
+.filters .button {
+    background-color: var(--background-filter-portfolio);
+}
+
+.filters .button:hover,
+.filters .button:focus {
+    color: #fff;
+    background-color: var(--accent-color);
+}
+
+/* офрмление картинок и подписей */
+.projekts .filter {
+    color: var(--second-text-color);
+}
