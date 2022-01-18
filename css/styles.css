@@ -14,6 +14,7 @@ ul { /* убирает все точки/нумерацию из списков.
 }
 
 :root {
+    --second-text-color: #757575;
     --accent-color: #2196F3;
 }
 
@@ -40,7 +41,7 @@ ul { /* убирает все точки/нумерацию из списков.
 }
 
 .communication .item {
-    color: #757575;
+    color: var(--second-text-color);
 }
 
 .communication .item:hover,
