@@ -8,6 +8,8 @@
 body {
     background-color: #fff;
     color: #212121;
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
 }
 ul { /* убирает все точки/нумерацию из списков. Можно для отдельных списков через добавление отдельного класса.*/
     list-style: none;
@@ -22,6 +24,10 @@ ul { /* убирает все точки/нумерацию из списков.
 /* стилизация шапки */
 .logo {
     color: inherit;
+    font-family: Raleway, sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.2;  /* 31 / 26 = 1,1924 = 1,2 */
 }
 
 .logo-blue {
@@ -35,6 +41,14 @@ ul { /* убирает все точки/нумерацию из списков.
 
 .site-nav .link{
     color: #212121;
+}
+
+.site-nav,
+.communication {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 
 .site-nav .link:hover,
@@ -57,12 +71,25 @@ ul { /* убирает все точки/нумерацию из списков.
 }
 
 /* стилизация main */
+
+.hero .header {
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
 .hero .button {
     color: #fff;
     background-color: var(--accent-color);
+    font-family: inherit;
     font-weight: bold;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.9;
     border: 1px solid var(--accent-color);
 }
 
