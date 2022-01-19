@@ -35,7 +35,7 @@ ul { /* убирает все точки/нумерацию из списков.
 }
 
 .header a,
-.footer a {
+.footer a{
     text-decoration: none;
 }
 
@@ -95,7 +95,6 @@ ul { /* убирает все точки/нумерацию из списков.
 /* основной конткнт */
 
 .titel {
-    font-style: 400;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -135,11 +134,18 @@ ul { /* убирает все точки/нумерацию из списков.
     background-color: #2F303A;
 }
 
+.address {
+    font-style: normal;
+}
+
 /* CSS для portfolio.html */
 
 /* кнопки фильтра */
 .filters .button {
     background-color: var(--background-filter-portfolio);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
 }
 
 .filters .button:hover,
@@ -149,6 +155,14 @@ ul { /* убирает все точки/нумерацию из списков.
 }
 
 /* офрмление картинок и подписей */
+.projekt-titel {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+}
+
 .projekts .filter {
     color: var(--second-text-color);
+    font-size: 16px;
+    line-height: 1.87;
 }
