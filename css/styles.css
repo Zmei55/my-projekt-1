@@ -83,6 +83,10 @@ ul { /* убирает все точки/нумерацию из списков.
     text-transform: uppercase;
 }
 
+.button {
+    cursor: pointer;
+}
+
 .hero .button {
     color: #fff;
     background-color: var(--accent-color);
@@ -92,6 +96,7 @@ ul { /* убирает все точки/нумерацию из списков.
     line-height: 1.9;
     border: 1px solid var(--accent-color);
 }
+
 /* основной конткнт */
 
 .titel {
