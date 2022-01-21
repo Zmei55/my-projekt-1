@@ -23,7 +23,7 @@ ul { /* убирает все точки/нумерацию из списков.
 
 /* стилизация шапки */
 .logo {
-    color: inherit;
+    color: inherit; /* не верно, хедер #000000, футер #ffffff */
     font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 26px;
