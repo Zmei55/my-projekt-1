@@ -124,6 +124,12 @@ body {
 
 /* основной конткнт */
 
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    outline: 1px solid blue;
+}
+
 .titel {
   font-weight: 700;
   font-size: 36px;
@@ -155,6 +161,8 @@ body {
   font-size: 16px;
   line-height: 1, 19;
   text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .profession {
@@ -169,8 +177,15 @@ body {
   background-color: #2f303a;
 }
 
+.footer p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 .address {
   font-style: normal;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 /* CSS для portfolio.html */
