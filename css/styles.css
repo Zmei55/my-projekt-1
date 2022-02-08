@@ -38,12 +38,15 @@ img {
 }
 
 .section {
+  max-width: 1600px;
   padding-top: 94px;
   padding-bottom: 94px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .container {
-  width: 1200px;
+  max-width: 1200px;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
@@ -57,6 +60,9 @@ img {
 /* стилизация шапки */
 
 .section-header {
+  max-width: 1600px;
+  margin-right: auto;
+  margin-left: auto;
   border-bottom: 1px solid #ececec;
 }
 
@@ -139,8 +145,19 @@ img {
 /* hero */
 
 .hero {
-  background: #757575;
+  background-color: #757575;
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/hero.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
   text-align: center;
+
+  max-width: 1600px;
+  margin-right: auto;
+  margin-left: auto;
   padding-top: 200px;
   padding-bottom: 200px;
 }
@@ -268,6 +285,9 @@ img {
   color: #fff;
   background-color: #2f303a;
 
+  max-width: 1600px;
+  margin-right: auto;
+  margin-left: auto;
   padding-top: 60px;
   padding-bottom: 60px;
 }
