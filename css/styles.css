@@ -204,6 +204,16 @@ img {
   margin-right: 30px;
 }
 
+.features-bg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+  background-color: var(--background-filter-portfolio);
+}
+
 .features-title {
   font-weight: 700;
   font-size: 14px;
@@ -283,15 +293,7 @@ img {
 
 .social-link-item {
   display: flex;
-
-  /* fill: #afb1b8; */
 }
-/* 
-.social-link-item:hover,
-.social-link-item:focus {
-  fill: #ffffff;
-  background-color: var(--accent-color);
-} */
 
 .team-link {
   display: flex;
