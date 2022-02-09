@@ -38,7 +38,7 @@ img {
 }
 
 .section {
-  max-width: 1600px;
+  width: 1600px;
   padding-top: 94px;
   padding-bottom: 94px;
   margin-right: auto;
@@ -46,7 +46,7 @@ img {
 }
 
 .container {
-  max-width: 1200px;
+  width: 1200px;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
@@ -54,15 +54,13 @@ img {
 }
 
 .visually-hidden {
-  visibility: hidden;
+  display: none;
+  /* visibility: hidden; */
 }
 
 /* стилизация шапки */
 
 .section-header {
-  max-width: 1600px;
-  margin-right: auto;
-  margin-left: auto;
   border-bottom: 1px solid #ececec;
 }
 
@@ -93,8 +91,8 @@ img {
   color: var(--accent-color);
 }
 
-.nav-items,
-.communication-items {
+.nav-list,
+.communication-list {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -145,21 +143,19 @@ img {
 /* hero */
 
 .hero {
-  background-color: #757575;
+  width: 1600px;
+  background-color: var(--second-text-color);
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
     url(../images/hero.jpg);
-  background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
   text-align: center;
-
-  max-width: 1600px;
-  margin-right: auto;
-  margin-left: auto;
   padding-top: 200px;
   padding-bottom: 200px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .hero-header {
@@ -200,7 +196,7 @@ img {
 
 /* Особенности */
 
-.features-items {
+.features-list {
   display: flex;
 }
 
@@ -208,7 +204,7 @@ img {
   margin-right: 30px;
 }
 
-.features-list {
+.features-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -229,7 +225,7 @@ img {
   padding-top: 0;
 }
 
-.work-items {
+.work-list {
   display: flex;
 }
 
@@ -243,7 +239,7 @@ img {
   background-color: var(--background-filter-portfolio);
 }
 
-.team-items {
+.team-list {
   display: flex;
 }
 
@@ -277,19 +273,63 @@ img {
 
 .team-profession {
   color: var(--second-text-color);
+  margin-bottom: 16px;
+}
+
+.social-link-list {
+  display: flex;
+  justify-content: center;
+}
+
+.social-link-item {
+  display: flex;
+
+  /* fill: #afb1b8; */
+}
+/* 
+.social-link-item:hover,
+.social-link-item:focus {
+  fill: #ffffff;
+  background-color: var(--accent-color);
+} */
+
+.team-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  fill: #afb1b8;
+}
+
+.team-link:hover,
+.team-link:focus {
+  fill: #ffffff;
+  background-color: var(--accent-color);
+}
+
+.social-link-item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.social-link {
+  display: block;
+  width: 20px;
+  height: 20px;
 }
 
 /* стилизация подвала */
 
 .footer {
+  width: 1600px;
   color: #fff;
   background-color: #2f303a;
 
-  max-width: 1600px;
-  margin-right: auto;
-  margin-left: auto;
   padding-top: 60px;
   padding-bottom: 60px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .footer-logo {
@@ -320,7 +360,7 @@ img {
 /* CSS для portfolio.html */
 
 /* кнопки фильтра */
-.portfolio-items {
+.portfolio-list {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
@@ -330,7 +370,7 @@ img {
   margin-right: 8px;
 }
 
-.portfolio-items .button {
+.portfolio-list .button {
   background-color: var(--background-filter-portfolio);
   font-weight: 500;
   font-size: 16px;
@@ -340,15 +380,15 @@ img {
   border-radius: 4px;
 }
 
-.portfolio-items .button:hover,
-.portfolio-items .button:focus {
+.portfolio-list .button:hover,
+.portfolio-list .button:focus {
   color: #fff;
   background-color: var(--accent-color);
 }
 
 /* офрмление картинок и подписей */
 
-.project-items {
+.project-list {
   display: flex;
   flex-wrap: wrap;
 }
