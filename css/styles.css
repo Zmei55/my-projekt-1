@@ -5,6 +5,10 @@
 }
 
 body {
+  width: 1600px;
+  margin-right: auto;
+  margin-left: auto;
+
   background-color: #fff;
   color: #212121;
   font-family: Roboto, sans-serif;
@@ -38,11 +42,8 @@ img {
 }
 
 .section {
-  width: 1600px;
   padding-top: 94px;
   padding-bottom: 94px;
-  margin-right: auto;
-  margin-left: auto;
 }
 
 .container {
@@ -113,29 +114,33 @@ img {
 
 .nav-item-link,
 .header-contact {
-  display: block;
+  display: inline-block;
   padding-top: 32px;
   padding-bottom: 32px;
 }
 
 .nav-item-link:hover,
-.nav-item-link:focus {
+.nav-item-link:focus,
+.header-contact:hover,
+.header-contact:focus {
   color: var(--accent-color);
+  fill: var(--accent-color);
 }
 
 .nav-item-link.current {
   color: var(--accent-color);
 }
 
-.contact {
+.header-contact {
+  display: flex;
+  align-items: center;
   text-decoration: none;
-  font-style: normal;
   color: var(--second-text-color);
+  fill: var(--second-text-color);
 }
 
-.contact:hover,
-.contact:focus {
-  color: var(--accent-color);
+.header-contact-img {
+  margin-right: 10px;
 }
 
 /* стилизация main */
@@ -143,7 +148,6 @@ img {
 /* hero */
 
 .hero {
-  width: 1600px;
   background-color: var(--second-text-color);
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
     url(../images/hero.jpg);
@@ -154,8 +158,6 @@ img {
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
-  margin-right: auto;
-  margin-left: auto;
 }
 
 .hero-header {
@@ -291,10 +293,6 @@ img {
   justify-content: center;
 }
 
-.social-link-item {
-  display: flex;
-}
-
 .team-link {
   display: flex;
   justify-content: center;
@@ -316,7 +314,6 @@ img {
 }
 
 .social-link {
-  display: block;
   width: 20px;
   height: 20px;
 }
@@ -324,14 +321,11 @@ img {
 /* стилизация подвала */
 
 .footer {
-  width: 1600px;
   color: #fff;
   background-color: #2f303a;
 
   padding-top: 60px;
   padding-bottom: 60px;
-  margin-right: auto;
-  margin-left: auto;
 }
 
 .footer-logo {
@@ -353,6 +347,16 @@ img {
 .contacts-item:not(:last-child) {
   margin-bottom: 9px;
 }
+
+.contact {
+  text-decoration: none;
+  color: var(--second-text-color);
+}
+
+/* .contact:hover,
+.contact:focus {
+  color: var(--accent-color);
+} */
 
 .address-item {
   color: #fff;
