@@ -2,6 +2,7 @@
   --second-text-color: #757575;
   --accent-color: #2196f3;
   --background-filter-portfolio: #f5f4fa;
+  --link-color: #afb1b8;
 }
 
 body {
@@ -37,7 +38,7 @@ p {
 
 img {
   display: block;
-  min-width: 100%;
+  max-width: 100%;
   height: auto;
 }
 
@@ -55,8 +56,14 @@ img {
 }
 
 .visually-hidden {
-  display: none;
-  /* visibility: hidden; */
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 /* стилизация шапки */
@@ -300,7 +307,7 @@ img {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  fill: #afb1b8;
+  fill: var(--link-color);
 }
 
 .team-link:hover,
@@ -316,6 +323,32 @@ img {
 .social-link {
   width: 20px;
   height: 20px;
+}
+
+/* постоянные клиенты */
+
+.clients-list {
+  display: flex;
+}
+
+.clients-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.clients-link {
+  display: flex;
+  width: 170px;
+  height: 92px;
+  padding: 16px 32px;
+  border: 1px solid var(--link-color);
+  border-radius: 4px;
+  fill: var(--link-color);
+}
+
+.clients-link:hover,
+.clients-link:focus {
+  fill: var(--accent-color);
+  border-color: var(--accent-color);
 }
 
 /* стилизация подвала */
