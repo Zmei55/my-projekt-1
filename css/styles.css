@@ -68,7 +68,24 @@ img {
 }
 
 .button {
+  color: #fff;
+  background-color: var(--accent-color);
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+
+  border: 1px solid transparent;
+  border-radius: 4px;
+
+  transition: background-color 250ms var(--timing-function);
+
   cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #188ce8;
 }
 
 /* стилизация шапки */
@@ -205,22 +222,7 @@ img {
 }
 
 .hero .button {
-  color: #fff;
-  background-color: var(--accent-color);
-  font-family: inherit;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.9;
-
   padding: 10px 32px;
-  border: 1px solid transparent;
-  border-radius: 4px;
-  transition: background-color 250ms var(--timing-function);
-}
-
-.hero .button:hover,
-.hero .button:focus {
-  background-color: #188ce8;
 }
 
 /* основной контент */
@@ -486,6 +488,8 @@ img {
 }
 
 .footer-title {
+  display: block;
+
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -501,6 +505,46 @@ img {
 .footer-link {
   color: #ffffff;
   background: rgba(255, 255, 255, 0.1);
+}
+
+/* подписаться */
+
+.subscribel-input {
+  font-size: 16px;
+  line-height: 1.25;
+  color: rgba(255, 255, 255, 0.6);
+
+  width: 358px;
+  padding: 15px 16px;
+  margin-right: 12px;
+
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  border-radius: 4px;
+
+  background-color: #2f303a;
+}
+
+.subscribel-box {
+  display: flex;
+}
+
+.subscribel-button {
+  display: flex;
+  align-items: center;
+
+  padding: 10px 29px;
+}
+
+.subscribel-text {
+  display: block;
+  letter-spacing: 0.06em;
+}
+
+.subscribel-icon {
+  fill: #ffffff;
+
+  margin-left: 10px;
 }
 
 /* модальное окно */
