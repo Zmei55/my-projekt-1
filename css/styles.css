@@ -487,7 +487,8 @@ img {
   text-decoration: none;
 }
 
-.footer-title {
+.footer-title,
+.footer-label {
   display: block;
 
   font-weight: 700;
@@ -526,23 +527,20 @@ img {
   box-sizing: border-box;
   border-radius: 4px;
 
-  background-color: #2f303a;
+  background-color: var(--footer-color);
 }
 
 .subscribel-button {
   display: flex;
   align-items: center;
 
+  letter-spacing: 0.06em;
+
   padding: 10px 29px;
 }
 
-.subscribel-text {
-  display: block;
-  letter-spacing: 0.06em;
-}
-
 .subscribel-icon {
-  fill: #ffffff;
+  fill: var(--light-theme-color);
 
   margin-left: 10px;
 }
