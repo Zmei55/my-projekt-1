@@ -12,14 +12,14 @@
         "components/common/_button.scss",
         "components/common/_logo.scss",
         "components/common/_social-links.scss",
-        "components/_page-header.scss",
-        "components/_hero.scss",
-        "components/_features.scss",
-        "components/_work.scss",
-        "components/_our-team.scss",
-        "components/_clients.scss",
-        "components/_page-footer.scss",
-        "components/_address.scss"
+        "components/index/_page-header.scss",
+        "components/index/_hero.scss",
+        "components/index/_features.scss",
+        "components/index/_work.scss",
+        "components/index/_our-team.scss",
+        "components/index/_clients.scss",
+        "components/index/_page-footer.scss",
+        "components/index/_address.scss"
     ],
     "names": [],
     "file": "main.css"
