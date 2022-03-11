@@ -103,7 +103,7 @@ p {
   overflow: hidden;
 }
 
-.hero__button, .subscribel__button {
+.hero__button, .subscribel__button, .form__button {
   color: #ffffff;
   background-color: #2196f3;
   font-family: inherit;
@@ -117,7 +117,7 @@ p {
   cursor: pointer;
 }
 
-.hero__button:hover, .subscribel__button:hover, .hero__button:focus, .subscribel__button:focus {
+.hero__button:hover, .subscribel__button:hover, .form__button:hover, .hero__button:focus, .subscribel__button:focus, .form__button:focus {
   background-color: #188ce8;
 }
 

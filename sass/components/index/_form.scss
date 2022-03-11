@@ -124,6 +124,8 @@
 }
 
 .form__button {
+  @extend %button;
+
   display: block;
   padding: 10px 56px;
   letter-spacing: 0.06em;
