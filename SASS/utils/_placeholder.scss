@@ -16,3 +16,19 @@
   align-items: center;
   justify-content: center;
 }
+
+%header-list {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  display: flex;
+}
+
+%header-link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  transition: color 250ms $timing-function, fill 250ms $timing-function;
+}
