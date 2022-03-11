@@ -1,0 +1,36 @@
+.subscribel__box {
+  display: flex;
+}
+
+.subscribel__input {
+  font-size: 16px;
+  line-height: 1.25;
+  color: rgba(255, 255, 255, 0.6);
+
+  width: 358px;
+  padding: 15px 16px;
+  margin-right: 12px;
+
+  @include bordered(rgba(255, 255, 255, 0.3));
+  box-sizing: border-box;
+  border-radius: 4px;
+
+  background-color: $footer-color;
+}
+
+.subscribel__button {
+  @extend %button;
+
+  display: flex;
+  align-items: center;
+
+  letter-spacing: 0.06em;
+
+  padding: 10px 29px;
+}
+
+.subscribel__icon {
+  fill: $light-theme-color;
+
+  margin-left: 10px;
+}
