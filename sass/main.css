@@ -433,4 +433,14 @@ p {
       -ms-flex-align: baseline;
           align-items: baseline;
 }
+
+.footer__item {
+  margin-right: 86px;
+}
+
+.footer__logo {
+  color: #ffffff;
+  display: inline-block;
+  margin-bottom: 20px;
+}
 /*# sourceMappingURL=main.css.map */
