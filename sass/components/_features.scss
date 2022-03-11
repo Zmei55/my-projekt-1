@@ -1,0 +1,36 @@
+.visually-hidden {
+  @extend %visually-hidden;
+}
+
+.features {
+  display: flex;
+}
+
+.features__item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.features__bg {
+  @extend %centeredFlex;
+
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+  border-radius: 4px;
+  background-color: $background-filter-portfolio;
+}
+
+.features__title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.features__text {
+  color: $second-theme-color;
+  font-size: 14px;
+  line-height: 1.7;
+}
