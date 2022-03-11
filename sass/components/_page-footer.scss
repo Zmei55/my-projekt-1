@@ -1,0 +1,12 @@
+.footer {
+  color: $light-theme-color;
+  background-color: $footer-color;
+
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footer__list {
+  display: flex;
+  align-items: baseline;
+}

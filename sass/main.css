@@ -417,4 +417,20 @@ p {
   width: 106px;
   height: 60px;
 }
+
+.footer {
+  color: #ffffff;
+  background-color: #2f323a;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footer__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
 /*# sourceMappingURL=main.css.map */
