@@ -59,7 +59,7 @@ p {
   text-decoration: none;
 }
 
-.social-links__link, .features__bg, .work__text {
+.social-links__link, .features__bg, .work__text, .clients__link {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -398,15 +398,6 @@ p {
 }
 
 .clients__link {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   color: #afb1b8;
   width: 170px;
   height: 92px;
